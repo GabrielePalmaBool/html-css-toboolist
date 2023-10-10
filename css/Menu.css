@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* --------------------------------------------header----------------------------------------------------- */
+
+#backgroundH {
+    background-color: rgb(255, 255, 255);
+}
+
+#backgroundH > #logo {
+    height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+#backgroundH > .title {
+    font-size: 30px;
+ }
+
+ /* --------------------------------------------main----------------------------------------------------- */
+
+ #backgroundM {
+    background-color: rgb(224, 222, 222);
+    
+ }
+
+ #backgroundM1 {
+    margin: auto;
+    width: 80%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+ }
+
+ .BackBotton{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+ }
+
+ .btn1 {
+    width: 70px;
+    height: 40px;
+    background-color: rgb(6, 148, 243);
+    display: inline-block;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    color: white;
+ }
+
+
+ .btn2 {
+    width: 80px;
+    height: 40px;
+    border-color: #e7e7e7;
+    background-color: rgb(245, 243, 243);
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    color: rgb(177, 175, 175);
+ }
+
+
+ #backgroundM2 {
+    margin: auto;
+    padding-left: 3px;
+    width: 80%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+ }
+
+
+  #text {
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
+  }
+
+  .btn3 {
+    width: 70px;
+    height: 30px;
+    border-color: #e7e7e7;
+    background-color: rgb(0, 133, 177);
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    margin-left: 10px;
+ }
+
+  /* freccia scroll in basso */
+  .arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
