@@ -26,6 +26,7 @@
  #backgroundM {
     background-color: rgb(224, 222, 222);
     padding-bottom: 10px;
+    height: auto;
  }
 
  #backgroundM1 {
@@ -41,31 +42,6 @@
     padding: 5px;
     padding-left: 40px;
  }
-
- .btn1 {
-    width: 70px;
-    height: 40px;
-    background-color: rgb(6, 148, 243);
-    display: inline-block;
-    border-radius: 8px;
-    text-align: center;
-    border: none;
-    color: white;
- }
-
-
- .btn2 {
-    width: 80px;
-    height: 40px;
-    border-color: #e7e7e7;
-    background-color: rgb(245, 243, 243);
-    display: inline-block;
-    text-align: center;
-    border: none;
-    border-radius: 8px;
-    color: rgb(177, 175, 175);
- }
-
 
  #backgroundM2 {
     margin: auto;
@@ -89,10 +65,31 @@
   }
 
 
+  /* ----------------------css bottoni----------------------------- */
 
-  /* css bottoni */
+  .btn1 {
+   width: 70px;
+   height: 40px;
+   background-color: rgb(6, 148, 243);
+   display: inline-block;
+   border-radius: 8px;
+   text-align: center;
+   border: none;
+   color: white;
+}
 
-  .btn3 {
+.btn2 {
+   width: 80px;
+   height: 40px;
+   border-color: #e7e7e7;
+   background-color: rgb(245, 243, 243);
+   display: inline-block;
+   text-align: center;
+   border: none;
+   border-radius: 8px;
+   color: rgb(177, 175, 175);
+}
+.btn3 {
     width: 70px;
     display: inline-block;
     height: 30px;
@@ -154,7 +151,8 @@
    margin-left: 10px;
 }
 
-  /* freccia scroll in basso */
+
+  /*-----------------freccia scroll in basso--------------------*/
   .arrow {
     border: solid black;
     border-width: 0 2px 2px 0;
@@ -167,6 +165,8 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
+/* ------------------------------------------ */
+
 
   /* Gestore spunta verde */
   .circle-checkmark {
