@@ -93,43 +93,35 @@
    color: black;
  }
 /*  */
-.btn3 {
-    width: 70px;
-    display: inline-block;
-    height: 30px;
-    border-color: #e7e7e7;
-    background-color: rgb(10, 186, 245);
-    text-align: center;
-    border: none;
-    border-radius: 12px;
-    color: white;
-    margin-left: 10px;
 
- }
+li {
+   list-style-type:none;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+}
+.Sp_button1 {
+   background-color: rgb(10, 186, 245);
+   border-radius: 12px;
+   color: white;
+   padding: 5px;
 
- .btn4 {
-    width: 70px;
-    height: 30px;
-    border-color: #e7e7e7;
-    background-color: chocolate;
-    text-align: center;
-    border: none;
-    border-radius: 12px;
-    color: white;
-    margin-left: 10px;
- }
+}
 
- .btn5 {
-    width: 70px;
-    height: 30px;
-    border-color: #e7e7e7;
-    background-color: rgb(39, 121, 59);
-    text-align: center;
-    border: none;
-    border-radius: 12px;
-    color: white;
-    margin-left: 10px;
- }
+.Sp_button2 {
+   background-color: chocolate;
+   border-radius: 12px;
+   color: white;
+   padding: 5px;
+
+}
+
+.Sp_button3 {
+   background-color: rgb(39, 121, 59);
+   border-radius: 12px;
+   color: white;
+   padding: 5px;
+
+}
 
  .btn6 {
     width: 70px;
