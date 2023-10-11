@@ -123,30 +123,21 @@ li {
 
 }
 
- .btn6 {
-    width: 70px;
-    height: 30px;
-    border-color: #e7e7e7;
-    background-color: rgb(107, 12, 99);
-    text-align: center;
-    border: none;
-    border-radius: 12px;
-    color: white;
-    margin-left: 10px;
- }
-
- .btn7 {
-   width: 70px;
-   height: 30px;
-   border-color: #e7e7e7;
-   background-color: rgb(248, 139, 67);
-   text-align: center;
-   border: none;
+.Sp_button4 {
+   background-color: rgb(107, 12, 99);
    border-radius: 12px;
    color: white;
-   margin-left: 10px;
+   padding: 5px;
+
 }
 
+.Sp_button5 {
+   background-color: rgb(255, 0, 98);
+   border-radius: 12px;
+   color: white;
+   padding: 5px;
+
+}
 
   /*-----------------freccia scroll in basso--------------------*/
   .arrow {
