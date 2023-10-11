@@ -51,11 +51,6 @@
     border-radius: 10px;
  }
 
- #backgroundM2 > .SotBackgroundM1 {
-    padding-bottom: 10px;
-    
- }
-
   #text {
     color: black;
     vertical-align: middle;
@@ -92,7 +87,8 @@
 .btn1:active, .btn2:active {
    color: black;
  }
-/*  */
+
+/*----------css liste--------------------- */
 
 li {
    list-style-type:none;
