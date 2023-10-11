@@ -70,25 +70,29 @@
   .btn1 {
    width: 70px;
    height: 40px;
-   background-color: rgb(6, 148, 243);
-   display: inline-block;
    border-radius: 8px;
    text-align: center;
+   cursor: pointer;
    border: none;
+   background: rgb(6, 148, 243);
    color: white;
 }
 
 .btn2 {
-   width: 80px;
+   width: 85px;
    height: 40px;
-   border-color: #e7e7e7;
-   background-color: rgb(245, 243, 243);
-   display: inline-block;
+   background: white;
    text-align: center;
-   border: none;
    border-radius: 8px;
+   cursor: pointer;
+   border: none;
    color: rgb(177, 175, 175);
 }
+
+.btn1:active, .btn2:active {
+   color: black;
+ }
+/*  */
 .btn3 {
     width: 70px;
     display: inline-block;
