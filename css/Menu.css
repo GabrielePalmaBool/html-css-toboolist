@@ -66,26 +66,30 @@
    width: 70px;
    height: 40px;
    border-radius: 8px;
+   font-size: 15px;
+   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    text-align: center;
    cursor: pointer;
    border: none;
    background: rgb(6, 148, 243);
-   color: white;
+   color: black;
 }
 
 .btn2 {
    width: 85px;
    height: 40px;
+   font-size: 15px;
+   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    background: white;
    text-align: center;
    border-radius: 8px;
    cursor: pointer;
    border: none;
-   color: rgb(177, 175, 175);
+   color: black;
 }
 
 .btn1:active, .btn2:active {
-   color: black;
+   color: white;
  }
 
 /*----------css liste--------------------- */
