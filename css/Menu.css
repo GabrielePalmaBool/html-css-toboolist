@@ -32,11 +32,9 @@
  #backgroundM1 {
     margin: auto;
     width: 80%;
-    background-color: rgb(240, 240, 240);
+    background-color: white;
     border-radius: 10px;
- }
 
- .BackBotton{
     margin-top: 20px;
     margin-bottom: 5px;
     padding: 5px;
@@ -47,7 +45,7 @@
     margin: auto;
     padding-left: 40px;
     width: 80%;
-    background-color: rgb(240, 240, 240);
+    background-color: white;
     border-radius: 10px;
  }
 
@@ -80,7 +78,7 @@
    height: 40px;
    font-size: 15px;
    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   background: white;
+   background: rgb(219, 219, 219);
    text-align: center;
    border-radius: 8px;
    cursor: pointer;
